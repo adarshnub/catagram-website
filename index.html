@@ -1,114 +1,115 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
     <head>
+
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>landing page</title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-       
-       
-       
+
+        <title>CATAGRAM</title>
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/e/e4/Emoji_u1f408.svg">
+        
         <link rel="stylesheet" href="styles.css">
 
+      </head>
 
-    </head>
     <body>
-        
-
-        <header>
-
-
-            <div class="top">
-                <div class="left">
-                    <p id="logo"> header-logo</p>
-                <div>
-
-                <div class="right">
-                    <ul>
-                        <li>header-line-one</li>
-                        <li>header-link-two</li>
-                        <li>header-link-three</li>
-                    </ul>    
-                </div>
-            </div>
-
-
-            <div class="welcome">
-                <div class="left">
-                    <h1 class="hero">This website is awesome</h1>
-                    <p class="secondary">This website has some subtext that goes here under the main title. It's a smaller
-                        font and the
-                        color is lower contrast.</p>
-                    <button class="secondary">Sign up</button>
-                </div>
-                <div class="right">
-                    <div class="image">
-                        <p class="secondary">this is a placeholder for an image</p>
-                    </div>
-                </div>
-            </div> 
-
-
-        </header>
-
-
-
-        <main>
-            <h2>Some random information.</h2>
-            <div class="card-container secondary">
-                <div class="card">
-                    <div class="square"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-    
-                <div class="card">
-                    <div class="square"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-    
-                <div class="card">
-                    <div class="square"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-    
-                <div class="card">
-                    <div class="square"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-            </div>
-        </main>
-    
-        <div class="quote">
-            <em>This is an inspiring quote, or a testimonial from a customer.
-                Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it
-                looks nice.</em>
-            <p>- Thor, God of Thunder</p>
-        </div>
-    
-        <div class="sign-up">
+            
+        <!-- NAV -->
+        <nav class="navbar bg-dark sticky-top">
             <div class="container">
-                <div class="left">
-                    <strong>Call to action! It's time!</strong>
-                    <p class="secondary">Sign up for our product by clicking that button right over there!</p>
-                </div>
-                <div class="right">
-                    <button class="secondary">Sign up</button>
-                </div>
+                <a class="nav-link link-secondary p-0" href="#">Funny <img width="15" height="15" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Emoji_u1f408.svg"> Cats</a>
+                <ul class="nav justify-content-end">
+                    <li><a class="nav-link link-secondary" href="#">About</a></li>
+                    <li><a class="nav-link link-secondary" href="#photos">Photos</a></li>
+                    <li><a class="nav-link link-secondary" href="#sign-up">Sign up</a></li>                    
+                </ul>
             </div>
-        </div>
-    
-        <footer>
-            Copyright &copy; The Odin Project 2021
+        </nav>
+
+        <!-- About -->  
+        <div class="container-fluid bg-dark text-white">
+          <div class="container pb-5 pt-3">
+            <div class="row flex-lg-row-reverse align-items-center g-5">
+
+              <div class="col-lg-7">
+                <img src="images/cat3.jpg" class="d-block mx-lg-auto img-fluid" width=700 alt="Catrobat">
+              </div>
+
+              <div class="col-lg-5">
+                <h1 class="display-5 fw-bold">CATAGRAM OFFICIAL</h1>
+                <p class="lead">Come on! Join the catagram and lets 'MEOOW...MEOW'</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-primary btn-lg px-5 me-md-2">Sign Up</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>    
+
+        <!-- Main -->
+        <main class="container">
+
+          <!-- photos -->
+          <br id="photos">
+          <div class="row text-center pt-3 pb-5 mb-3">
+
+            <h2 class="pb-2 border-bottom d-flex justify-content-center">Cats of the day</h2>
+
+            <div class="pt-5 px-4 col-lg-3">
+              <img src="https://www.rd.com/wp-content/uploads/2021/03/GettyImages-1222753898-scaled-e1615489115889.jpg" class="rounded-3 img-fluid" alt="...">
+              <p class="pt-2">Checkmate! Life’s a game of chess and this cat is always ten moves ahead.</p>
+            </div>
+            <div class="pt-5 px-4 col-lg-3">
+              <img src="https://www.rd.com/wp-content/uploads/2021/03/GettyImages-1255078396.jpg" class="rounded-3 img-fluid" alt="...">
+              <p class="pt-2">Is that you, Picasso? We’re paws-itive some photos truly capture a cat’s talent.</p>
+            </div>
+            <div class="pt-5 px-4 col-lg-3">
+              <img src="https://www.rd.com/wp-content/uploads/2021/03/GettyImages-1183822926.jpg" class="rounded-3 img-fluid" alt="...">
+              <p class="pt-2">That’s one cool cat! This cat is clearly living its nine lives to the fullest.</p>
+            </div>
+            <div class="pt-5 px-4 col-lg-3">
+              <img src="https://www.rd.com/wp-content/uploads/2021/03/GettyImages-1202731508.jpg" class="rounded-3 img-fluid" alt="...">
+              <p class="pt-2">Monday mood. When you have 50 emails in your inbox first thing Monday morning.</p>
+            </div>
+
+          </div>
+
+          <!-- quote -->
+          <div class="bg-light p-5">
+
+            <blockquote class="blockquote fs-2 pt-5">
+              <p>There’s always time to look at these pictures, whether you like funny dog photos, cat memes, or other funny pet pictures. If you need a good laugh, take a look at these funny cat photos.</p>
+              <div class="pt-2 d-flex justify-content-end"><footer class="blockquote-footer">Kelly Kuehn author in <cite title="Source Title">Reader's Digest</cite></footer></div>
+            </blockquote>
+
+          </div>
+
+          <!-- Sign Up -->
+          <div class="py-5">
+            <div class="p-5 my-5 bg-primary text-white rounded-3" id="sign-up">
+              <div class="row row-cols-auto">
+                <div class="col-md-1"></div>
+                <div class="col-md-7">
+                  <h1 class="display-5 fw-bold">Call to action it's time!</h1>
+                  <p class="fs-4">Sign up for our cat news letter with that button right over there!</p>
+                </div>
+                <div class="col-md-4 align-self-center d-flex justify-content-center">
+                  <button class="btn btn-outline-light btn-lg px-5" type="button">Sign Up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-dark py-3">
+          <p class="text-center text-muted py-3 m-0 fs-4">&copy; 2021 The Odin Project</p>
         </footer>
-
-
-
-        <body>
-     
-
-        
-       
+   
     </body>
+
+
 </html>
